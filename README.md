@@ -1,7 +1,7 @@
 
 
 ## About The Project
-This project was written to test www.kitapyurdu.com. The project is written in Java programming language and is a Maven project. OOP principles are adopted.
+This project was written to test www.kitapyurdu.com. The project is written in Java programming language and is a Maven project. OOP principles are adopted. 
 
 ## Test Steps
 - www.kitapyurt.com opens.
@@ -16,3 +16,16 @@ This project was written to test www.kitapyurdu.com. The project is written in J
 - It is checked that the message "Updating your cart" is displayed.
 - Cross button is pressed.
 - Check that the cart is empty.
+
+## Dependencies
+- Selenium Java
+- JUnit Jupiter Engine
+- Apache Log4j
+- WebDriverManager
+
+## Browser
+The project can be run in chrome, firefox, edge and safari browsers. To select a browser, you must write FIREFOX, EDGE, SAFARI or CHROME to the browser variable in the BaseTest class.
+
+"
+DriverTypes browser = CHROME;
+"
