@@ -26,6 +26,7 @@ This project was written to test www.kitapyurdu.com. The project is written in J
 ## Browser
 The project can be run in chrome, firefox, edge and safari browsers. To select a browser, you must write FIREFOX, EDGE, SAFARI or CHROME to the browser variable in the BaseTest class.
 
-''' java
+```
+
 DriverTypes browser = CHROME;
-'''
+```
